@@ -21,8 +21,6 @@ Route::resource('id', 'LandingController@countryid');
 
 Route::group(['middleware' => 'languange'], function()
 {
-	
-
 	Route::get('home', 'HomeController@index');
 
 	// Authentication routes...

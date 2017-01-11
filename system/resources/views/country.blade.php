@@ -8,9 +8,9 @@
 
 	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 	<link href="{{ asset('/css/footer.css') }}" rel="stylesheet">
+	<link href="{{ asset('/css/main.css') }}" rel="stylesheet">
 	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" href="http://tutahosting.net/wp-content/uploads/2015/01/tutaico.png" type="image/x-icon" />
+	<link href="//fonts.googleapis.com/css?family=Roboto|Raleway" rel="stylesheet" type="text/css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,15 +24,14 @@
 
 <div class="container">
     <div class="vertical-center-row">
-        <div align="center">
+        <div class="center">
         	
-			  <h2>Choose Country</h2>
 			  <div class="list-group">
 			  
-
 			    <a href="{{ url('/hk') }}" class="list-group-item"><span class="flag-icon flag-icon-gr"></span>Hong Kong</a>
 			    <a href="{{ url('/sg') }}" class="list-group-item"><span class="flag-icon flag-icon-gr flag-icon-squared"></span>Singapore</a>
 			    <a href="{{ url('/id') }}" class="list-group-item">Indonesia</a>
+
 			  </div>
 			
         </div>

@@ -5,7 +5,7 @@
 	<div id="home-section" class="image-bg">
 		<div class="container">
 			<div class="home-content padding">
-				<img class="img-responsive" src="images/landing/slider-logo.png" alt="">				
+				<img class="img-responsive" src="images/landing/synergymarketinglogo.png" alt="">				
 				<h1>YOUR PREFERRED IN-STORE MARKETING AND BRANDING PARTNER</h1>				
 				<div class="button">
 					<a href="#" class="btn btn-primary btn-animated">Read About Us</a>
@@ -65,120 +65,130 @@
 @section('about')
 
 <div id="about" class="padding">
-<div class="container">
-	  <div class="row">
-	  </div>
-</div>
 	<div class="container">
 	  <div class="row">
-	    <div class="col-lg-12">
-	      <h3 class="text-center">Our history</h3>
-	      <p>
+	    <div class="col-lg-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	      <h1 class="custom-font text-center"> <b>SMA GROUP MILESTONES</b></h1>
+	      <backquote>
 	        Synergy Marketing (Asia) has come a long way since our inception in 2002 in Hong Kong. We have evolved to become a leading and preferred in-store marketing strategist. Combining industry expertise with creative and innovative solutions, we are able to develop and implement effective marketing and communications strategies to reach our clients’ targeted audience.
-	      </p>
+	      </backquote>
 	      <ul class="timeline">
 	        <li>
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/1" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/1_creditcard.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Step One</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2002</b></h1>              
 	            </div>
-	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	            <div>
+	              
+	                <ul>
+		                <li>Inception of SMA in Hong Kong</li>
+						<li>Engaged by Standard Chartered Bank for ATM coupon advertising</li>
+					</ul>
+	              
 	            </div>
 	          </div>
 	          <div class="line"></div>
 	        </li>
 	        <li class="timeline-inverted">
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/2_TV.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Step Two</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2005</b></h1>
 	            </div>
 	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	                <ul>
+		                <li>Exclusive in-store TV agency (Mobile Phone Interactive Technology) of Mannings (Dairy Farm Hong Kong)</li>
+					</ul>
 	            </div>
 	          </div>
 	          <div class="line"></div>
 	        </li>
 	        <li>
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/3_radio.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Step Three</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2008</b></h1>
 	            </div>
 	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	                <ul>
+		                <li>Exclusive in-store radio agency of Wellcome (Dairy Farm Hong Kong)</li>
+						<li>Appointed in-store demonstration agency of Wellcome (Dairy Farm Hong Kong)</li>
+					</ul>
 	            </div>
 	          </div>
 	          <div class="line"></div>
 	        </li>
 	        <li class="timeline-inverted">
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/4_media.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Step Three</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2009</b></h1>
 	            </div>
 	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	                <ul>
+		                <li>Appointed in-store media agency of Wellcome (Dairy Farm Hong Kong)</li>
+					</ul>
 	            </div>
 	          </div>
 	          <div class="line"></div>
 	        </li>
 	        <li>
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/5_sampling.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Bonus Step</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2010</b></h1>
 	            </div>
 	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	                <ul>
+		                <li>Appointed promoter agency for fresh food department of PARKnSHOP (Hutchison Group)</li>
+					</ul>
 	            </div>
 	          </div>
 	          <div class="line"></div>
 	        </li>
 	       <li class="timeline-inverted">
 	          <div class="timeline-image">
-	            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+	            <img class="img-circle img-responsive" src="images/landing/6_media_sin.png" alt="">
 	          </div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <h4>Step Three</h4>
-	              <h4 class="subheading">Subtitle</h4>
+	              <h1><b>2016</b></h1>
 	            </div>
 	            <div class="timeline-body">
-	              <p class="text-muted">
-	                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	              </p>
+	                <ul>
+		                <li>Appointed in-store media agency of Giant (Dairy Farm Singapore)</li>
+					</ul>
 	            </div>
 	          </div>
-	          
+	          <div class="line"></div>	          
 	        </li>
+	        <li>
+	          <div class="timeline-image">
+	            <img class="img-circle img-responsive" src="images/landing/7_tv_mallprinting.png" alt="">
+	          </div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <h1><b>2017</b></h1>
+	            </div>
+	            <div class="timeline-body">
+	                <ul>
+		                <li>Appointed in-store TV & mall printing agency of Carrefour (Indonesia)</li>
+					</ul>
+	            </div>
+	          </div>
+
+	        </li>	        
 	      </ul> <!-- TimeLine -->
 	    </div> <!-- Col-12 -->
 	  </div> <!-- ROW -->
