@@ -2,21 +2,19 @@
 
 @section('home')
 
-	<div id="home-section" class="image-bg">
+	<div id="home-section" class="image-bg" style="height:1000px;">
+
 		<div class="container">
+			<div class="home-bg"></div>
+
+			<img class="img-responsive wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s" src="images/landing/background/tagline03.png" alt="" >
 			<div class="home-content padding">
-				<img class="img-responsive" src="images/landing/synergymarketinglogo.png" alt="">				
-				<h1>YOUR PREFERRED IN-STORE MARKETING AND BRANDING PARTNER</h1>				
 				<div class="button">
-					<a href="#" class="btn btn-primary btn-animated">Read About Us</a>
-					<a href="#" class="btn btn-primary btn-animated">Our Services</a>
+
 				</div>
 				<div class="app-icons text-center">
 					<ul class="list-inline">
-						<li><a href="#"><i class="fa fa-desktop"></i></a></li>
-						<li><a href="#"><i class="fa fa-apple"></i></a></li>
-						<li><a href="#"><i class="fa fa-windows"></i></a></li>
-						<li><a href="#"><i class="fa fa-android"></i></a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -38,22 +36,22 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand" href="#home-section">
-					<img class="main-logo img-responsive" src="images/landing/logo.png" alt="" width="80" height="80">
+                <a  href="#home-section">
+					<img class="main-logo img-responsive" src="images/landing/background/synergymarketinglogo.png" alt="" style="width:135px;height:60px;">
                 </a> 
 
             </div> 
             <nav id="mainmenu" class="collapse navbar-collapse navbar-right" aria-expanded="false">         
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home-section">HOME</a></li>
-                    <li class=""><a href="#about">About Us</a></li>
-                    <li class=""><a href="#services">Services</a></li>
-                    <li class=""><a href="#mediums">Mediums</a></li>
-                    <li class=""><a href="#network">Network</a></li>
-                    <li class=""><a href="#innovation">Innovation</a></li>
-                    <li class=""><a href="#career">Career</a></li>
-                    <li class=""><a href="#contact">Contact</a></li>
-                    <li class=""><a href="{{ url('/home') }}">Login</a></li>
+                    <li class="active"><a href="#home-section"><b>HOME</b></a></li>
+                    <li class=""><a href="#about"><b>About Us</b></a></li>
+                    <li class=""><a href="#services"><b>Services</b></a></li>
+                    <li class=""><a href="#mediums"><b>Mediums</b></a></li>
+                    <li class=""><a href="#network"><b>Network</b></a></li>
+                    <li class=""><a href="#innovation"><b>Innovation</b></a></li>
+                    <li class=""><a href="#career"><b>Career</b></a></li>
+                    <li class=""><a href="#contact"><b>Contact</b></a></li>
+                    <li class=""><a href="{{ url('/home') }}"><b>Login</b></a></li>
                 </ul>         
             </nav>               
         </div>
@@ -68,7 +66,7 @@
 	<div class="container">
 	  <div class="row">
 	    <div class="col-lg-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;">
-	      <h1 class="custom-font text-center"> <b>SMA GROUP MILESTONES</b></h1>
+	      <h1 class="text-center"> <b>SMA GROUP MILESTONES</b></h1>
 	      <backquote>
 	        Synergy Marketing (Asia) has come a long way since our inception in 2002 in Hong Kong. We have evolved to become a leading and preferred in-store marketing strategist. Combining industry expertise with creative and innovative solutions, we are able to develop and implement effective marketing and communications strategies to reach our clients’ targeted audience.
 	      </backquote>
@@ -203,42 +201,29 @@
 	<div class="overlay-bg"></div>
 	<div class="container">
 		<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.10s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-	: fadeInUp;">
-			<img class="img-responsive" src="images/icons/t1.png" alt="">
-			<h1>Our Services</h1>
+
+			<h1>Company Philosophy</h1>
 		</div>
 		<div class="special-features">
 			<div class="row"> 
-				<div class="col-sm-3">
-					<div class="special-content text-right wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInDown;">
-						<h2>In-store marketing and advertising solutions</h2>
-						<p>Sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					</div>
-					<div class="special-content text-right wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
-						<h2>In-store demonstration campaigns</h2>
-						<p>Ut enim ad minim veniam, quis nosexercitation ullaboris nisi ut aliquip ex ea commodo.</p>
-					</div>
-					<div class="special-content text-right wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
-						<h2>Events management </h2>
-						<p>Ut enim ad minim veniam, quis nosexercitation ullaboris nisi ut aliquip ex ea commodo.</p>
-					</div>					
+				<div class="col-sm-6">
+					<img class="img-responsive" src="images/landing/background/motto1.png" alt="">
 				</div>
 				<div class="col-sm-6">
-					<div class="special-image wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.7s; animation-name: slideInUp;">
-						<img class="img-responsive" src="images/landing/special.png" alt="">
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="special-content text-left wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInDown;">
-						<h2>Merchandising and shelf-management</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-					<div class="special-content text-left wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
-						<h2>Marketing communications strategy and consultancy</h2>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-					</div>
+					<backquote >
+						<p class="text-justify"><br/><q>With the “Passion For Excellence” philosophy, our dedicated teams work tirelessly to deliver outstanding results for our clients. Talk to us today, and find out how we can assist you in achieving your desired results.
+						<br/>
+						With 13 years of impeccable track record, Synergy Marketing (Asia) LTD is the leading (and largest) in-store marketing services provider in Hong Kong. Our key strength lies in our dedicated teams, research and development, and most importantly, swift and reliable service. </span>
+						<br/>
+						Do you know that a whopping three out of four shoppers – 82% to be exact, make their shopping decisions in the store, up from 76% in the 2012 study? The 2014 study, conducted by the Point Of Purchase Advertising International (POPAI), also revealed that there is a huge jump from 55% to 62% for unplanned purchases in the store (compared to 2012 study). What does this show? Yes..... The importance of in-store marketing - more shoppers today make decisions in-store than before. Relying on in-store marketing and branding, shoppers’ in-store decision rate has reached an all time high of 82%. In-store advertisements have shown to drive unplanned purchases (62%, compared to 55% in 2012). 
+						<br/>
+						And with compelling and creative visual displays and works, we are looking at engaging shoppers, influencing their in-store buying decision, turning a subconscious shopper into a potential buyer. We also recognise the needs of our clients, retailer partners and shoppers, and create customized, seamless and effective solutions. We call this the SMArt Strategy, delivering better results and competitive advantage. 
+						</q>
+						</p>
+						
+					</backquote>
 				</div>
 
-				
 			</div>
 		</div>
 	</div>
@@ -249,6 +234,95 @@
 @section('mediums')
 
 <div id="mediums" class="padding">
+<div class="container">
+		<div class="row">
+			<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInUp;">
+				<img class="img-responsive" src="images/icons/t4.png" alt="">
+				<h1>Our Services</h1>
+			</div>				
+		</div>
+		<div class="all-features text-center">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.2s; animation-name: fadeInDown;">							
+						<img class="img-responsive" src="images/landing/services/1_media.png" alt="">
+						<h2>Media</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">							
+						<img class="img-responsive" src="images/landing/services/2_brandambassador.png" alt="">
+						<h2>Brand Ambassador</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInDown;">							
+						<img class="img-responsive" src="images/landing/services/3_merchandising.png" alt="">
+						<h2>Merchandising</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInUp;">							
+						<img class="img-responsive" src="images/landing/services/4_retails.png" alt="">
+						<h2>Retail Management</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInDown;">							
+						<img class="img-responsive" src="images/landing/services/5_research.png" alt="">
+						<h2>Research</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">							
+						<img class="img-responsive" src="images/landing/services/6_events.png" alt="">
+						<h2>Event</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInDown;">							
+						<img class="img-responsive" src="images/landing/services/7_production.png" alt="">
+						<h2>Creative Production</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.6s; animation-name: fadeInUp;">							
+						<img class="img-responsive" src="images/landing/services/8_premiums.png" alt="">
+						<h2>Premium</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</div><!--/#compatibility-->
+
+@endsection
+
+@section('network')
+
+<div id="network" class="padding image-bg">
+
+	<div class="overlay-bg"></div>
+		
+	<div class="container text-center">
+		<div class="section-title wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInDown;">
+			<img class="img-responsive" src="images/icons/t3.png" alt="">
+			<h1>Description with video</h1>
+		</div>
+		<div class="video wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: zoomIn;">
+			<a class="video-link" href="https://vimeo.com/124415606"><i class="fa fa-youtube-play"></i></a>
+			<img class="img-responsive" src="images/landing/video.png" alt="">
+		</div>
+	</div>
+</div><!--/#video-section-->
+
+@endsection
+
+@section('innovation')
+
+<div id="innovation" class="padding">
 	<div class="container">
 		<div class="section-title text-center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInDown;">
 			<img class="img-responsive" src="images/icons/t2.png" alt="">
@@ -279,155 +353,6 @@
 			</div>
 		</div>
 	</div>
-</div><!--/#compatibility-->
-
-@endsection
-
-@section('network')
-
-<div id="network" class="padding image-bg">
-
-	<div class="overlay-bg"></div>
-		<div class="container">
-		<div class="row">
-			<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInUp;">
-				<img class="img-responsive" src="images/icons/t4.png" alt="">
-				<h1>Our Network</h1>
-			</div>				
-		</div>
-		<div class="all-features text-center">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.2s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f1.png" alt="">
-						<h2>Super Fast</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f5.png" alt="">
-						<h2>Free Text</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f2.png" alt="">
-						<h2>East to Use</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f6.png" alt="">
-						<h2>Creative UI</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f3.png" alt="">
-						<h2>Video Calls</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f7.png" alt="">
-						<h2>Instant Messaging</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f4.png" alt="">
-						<h2>Free Call</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.6s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f8.png" alt="">
-						<h2>File Sharing</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<div class="container text-center">
-		<div class="section-title wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInDown;">
-			<img class="img-responsive" src="images/icons/t3.png" alt="">
-			<h1>Description with video</h1>
-		</div>
-		<div class="video wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: zoomIn;">
-			<a class="video-link" href="https://vimeo.com/124415606"><i class="fa fa-youtube-play"></i></a>
-			<img class="img-responsive" src="images/landing/video.png" alt="">
-		</div>
-	</div>
-</div><!--/#video-section-->
-
-@endsection
-
-@section('innovation')
-
-<div id="innovation" class="padding">
-	<div class="container">
-		<div class="row">
-			<div class="text-center section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInUp;">
-				<img class="img-responsive" src="images/icons/t4.png" alt="">
-				<h1>Discover All Features</h1>
-			</div>				
-		</div>
-		<div class="all-features text-center">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.2s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f1.png" alt="">
-						<h2>Super Fast</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f5.png" alt="">
-						<h2>Free Text</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f2.png" alt="">
-						<h2>East to Use</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f6.png" alt="">
-						<h2>Creative UI</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.4s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f3.png" alt="">
-						<h2>Video Calls</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f7.png" alt="">
-						<h2>Instant Messaging</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInDown;">							
-						<img class="img-responsive" src="images/icons/f4.png" alt="">
-						<h2>Free Call</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-					<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.6s; animation-name: fadeInUp;">							
-						<img class="img-responsive" src="images/icons/f8.png" alt="">
-						<h2>File Sharing</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-</div><!--/#features--> 
 
 
 @endsection
