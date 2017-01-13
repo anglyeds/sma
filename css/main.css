@@ -87,6 +87,14 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform:capitalize;
 }
 
+
+/* Custom Column */
+.col-height{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+
 /* Font Class */
 
 .custom-font{
@@ -97,6 +105,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 	line-height: 1.10909;
 }
+
+.vintage-font{
+	font-family: "Times New Roman", Times, serif;
+}
+
 
 .padding{	
 	padding:90px 0;

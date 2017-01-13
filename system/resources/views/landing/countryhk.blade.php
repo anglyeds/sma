@@ -211,13 +211,11 @@
 				</div>
 				<div class="col-sm-6">
 					<backquote >
-						<p class="text-justify"><br/><q>With the “Passion For Excellence” philosophy, our dedicated teams work tirelessly to deliver outstanding results for our clients. Talk to us today, and find out how we can assist you in achieving your desired results.
+						<p class="text-justify"><br/>
+						<q class="vintage-font">With the “Passion For Excellence” philosophy, our dedicated teams work tirelessly to deliver outstanding results for our clients. Talk to us today, and find out how we can assist you in achieving your desired results.
 						<br/>
-						With 13 years of impeccable track record, Synergy Marketing (Asia) LTD is the leading (and largest) in-store marketing services provider in Hong Kong. Our key strength lies in our dedicated teams, research and development, and most importantly, swift and reliable service. </span>
+						With 15 years of impeccable track record, Synergy Marketing (Asia) ltd is the leading (and largest) in-store marketing services provider in Hong Kong. Our key strength lies in our dedicated teams, research and development, and most importantly, swift and reliable service. 
 						<br/>
-						Do you know that a whopping three out of four shoppers – 82% to be exact, make their shopping decisions in the store, up from 76% in the 2012 study? The 2014 study, conducted by the Point Of Purchase Advertising International (POPAI), also revealed that there is a huge jump from 55% to 62% for unplanned purchases in the store (compared to 2012 study). What does this show? Yes..... The importance of in-store marketing - more shoppers today make decisions in-store than before. Relying on in-store marketing and branding, shoppers’ in-store decision rate has reached an all time high of 82%. In-store advertisements have shown to drive unplanned purchases (62%, compared to 55% in 2012). 
-						<br/>
-						And with compelling and creative visual displays and works, we are looking at engaging shoppers, influencing their in-store buying decision, turning a subconscious shopper into a potential buyer. We also recognise the needs of our clients, retailer partners and shoppers, and create customized, seamless and effective solutions. We call this the SMArt Strategy, delivering better results and competitive advantage. 
 						</q>
 						</p>
 						
@@ -326,30 +324,74 @@
 	<div class="container">
 		<div class="section-title text-center wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeInDown;">
 			<img class="img-responsive" src="images/icons/t2.png" alt="">
-			<h1>OS Compatibility</h1>
+			<h1 >Our Network</h1>
 		</div>
-		<div class="col-sm-6 left-side">
-			<div class="compatibility">
-				<div class="os text-right wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInLeft;">
-					<h2>Android</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<a href="#">More Detail</a>
-				</div>
-				<div class="os-image wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInRight;">
-					<img class="img-responsive" src="images/landing/os1.png" alt="">
-				</div>
+		<div class="partner text-center">
+			<h1 class="text-center">Partners</h1>
+
+			<div class="row">
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/1_wellcome1.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/2_parknshop.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/3_coldstorage.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/4_fairprice.png" alt="">
+					</div>
 			</div>
+			<div class="row">
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/5_giant.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/6_carrefour.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/7_mannings.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/8_watsons.png" alt="">
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/9_sasa.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/10_7-11.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/11_circlek.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/12_aeon.png" alt="">
+					</div>
+			</div>
+
+			<div class="row">
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/13_yata.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/14_piago.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/15_apita.png" alt="">
+					</div>
+					<div class="col-sm-3 col-height" style="margin: 0 auto;">
+						<img class="img-responsive center-block" src="images/landing/partner/16_sogo.png" alt="">
+					</div>
+			</div>						
 		</div>	
-		<div class="col-sm-6 right-side">
-			<div class="compatibility">
-				<div class="os-image wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInLeft;">
-					<img class="img-responsive" src="images/landing/os2.png" alt="">
-				</div>
-				<div class="os text-left wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: fadeInRight;">
-					<h2>iPhone</h2>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-					<a href="#">More Detail</a>
-				</div>
+		<div class="col-sm-12">
+			<div class="Client">
+			<h1 class="text-center">Clients</h1>
+
 			</div>
 		</div>
 	</div>
