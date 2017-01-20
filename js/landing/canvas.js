@@ -1,4 +1,4 @@
-/**
+        /**
     The base class for all elements that appear in the game.
     @author <a href="mailto:matthewcasperson@gmail.com">Matthew Casperson</a>
     @class
@@ -360,7 +360,7 @@ function GameObjectManager()
         
         // get references to the canvas elements and their 2D contexts
         this.canvas = document.getElementById('canvas');
-        this.context2D = this.canvas.getContext('2d');
+        /*this.context2D = this.canvas.getContext('2d');*/
         this.backBuffer = document.createElement('canvas');
         this.backBuffer.width = this.canvas.width;
         this.backBuffer.height = this.canvas.height;
